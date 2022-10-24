@@ -9,7 +9,7 @@ function addTodo(text) {
     const todo = {
         text,
         done : false,
-        id: `${Math.random}` //Предоставляет уникальный индификатор
+        id: `${Math.random()}` //Предоставляет уникальный индификатор
     } ;
 
     todos.push(todo);
