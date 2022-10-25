@@ -1,0 +1,63 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D0CBC8;
+}
+
+.container {
+    /* position: relative; */
+    width: 354px ;
+    height: 541px ;
+    background-color: #FFFFFF;
+}
+
+.header-day {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+}
+
+.cont {
+    padding-left: 30px;
+}
+
+.header-date {
+    font-size: 12px ;
+    font-weight: 300;
+    color: #767676;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.inputAdd {
+    padding: 20px 20px;
+}
+
+.mon {
+    padding-left: 30px;
+    color: #000;
+}
+.days {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 30px;
+    color: #767676;
+}
+
+.daysContainer {
+    display: flex;
+}
+
+.numberTasks{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.allTasks {
+    /* padding-top: 30px; */
+    font-size: 12px;
+    font-weight: 400;
+}
