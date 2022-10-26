@@ -61,3 +61,50 @@ body {
     font-size: 12px;
     font-weight: 400;
 }
+
+.input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 15px 15px 0;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
+    background: linear-gradient(45deg, rgb(27, 44, 34) 11%, rgb(1, 51, 146) 84%);
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    transition: box-shadow .18s ease-out, background .18s ease-out, color .18s ease-out;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 1px 0 #cfcfcf, 0 2px 5px 0 #cfcfcf;
+}
+
+.btn:active {
+    background-color: #efefef !important;
+}
+
+.btn:disabled {
+    background-color: #eee;
+    color: #444;
+    pointer-events: none;
+}
