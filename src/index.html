@@ -1,0 +1,27 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/src/scss/styles.scss" />
+<title>Drag & Drop Project</title>
+</head>
+
+<body>
+    <div>
+        <div class="row">
+            <div class="col-header start">Ожидают</div>
+            <div class="col-header progress">В процессе</div>
+            <div class="col-header done">Готовы</div>
+        </div>
+
+        <div class="row">
+            <div class="placeholder">
+                <!-- Место куда помещанием карточку   -->
+                <div class="item" draggable="true">Задание</div>
+                <!-- Сама карточка, draggable дает понять интерпритатору что можно перестакивать этот элемент   -->
+            </div>
+            <div class="placeholder"></div>
+            <div class="placeholder"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
