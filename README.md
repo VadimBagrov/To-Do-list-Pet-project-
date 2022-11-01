@@ -1,4 +1,5 @@
 # To-Do-list-Pet-project-
 Wrote the first code 
 You can dynamically add tasks, delete them 
-With Input and Button 
+With input and button 
+Soon to use new technologies for myself
