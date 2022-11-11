@@ -1,0 +1,138 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D0CBC8;
+}
+
+.container {
+    /* position: relative; */
+    width: 354px ;
+    height: 541px ;
+    background-color: #FFFFFF;
+}
+
+.header-day {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+    line-height: 60px;
+}
+
+.cont {
+    padding-left: 30px;
+}
+
+.header-date {
+    font-size: 12px ;
+    font-weight: 300;
+    color: #767676;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.inputAdd {
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.mon {
+    padding-left: 30px;
+    color: #000;
+}
+.days {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 30px;
+    color: #767676;
+}
+
+.daysContainer {
+    display: flex;
+}
+
+.numberTasks{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.allTasks {
+    /* padding-top: 30px; */
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 15px 15px 0;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
+    background: linear-gradient(45deg, rgb(27, 44, 34) 11%, rgb(1, 51, 146) 84%);
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    transition: box-shadow .18s ease-out, background .18s ease-out, color .18s ease-out;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 1px 0 #cfcfcf, 0 2px 5px 0 #cfcfcf;
+}
+
+.btn:active {
+    background-color: #efefef !important;
+}
+
+.btn:disabled {
+    background-color: #eee;
+    color: #444;
+    pointer-events: none;
+}
+
+.todos {
+    padding-left: 20px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.todos button {
+    /* position: absolute; */
+    width: 12px;
+    height: 13px;
+    /* left: 400px; */
+    /* top: 0;  */
+    background: #FFFFFF;
+    border: 1px solid #767676;
+    border-radius: 3px;
+    font-size: 0;
+    margin-right: 10px;
+}
+
+.todos div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
