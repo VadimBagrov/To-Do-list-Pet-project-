@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +19,7 @@
     <div class="container">
         <div class="header">
             <p class="header-date cont">Monday, Oct 1</p>
-            <h1 class = "header-day cont">Today</h1>
+            <h1 class="header-day cont">Today</h1>
         </div>
         <div class="daysContainer">
             <div class="mon days">
@@ -53,14 +54,24 @@
         <div class="numberTasks">
             <p class="allTasks">Number of tasks</p>
         </div>
-            <div class="inputAdd">
-                <input type="text" name="todo" id="todo" class="js-input input"
-                placeholder="Enter the task">
-                <button class="js-btn btn"> ADD </button>
-            </div>
+        <button class="btn-add">
+            <img src="button-add.png" alt="button">
+        </button>
         <div class="js-todos todos"></div>
+    </div>
+
+    <!-- Выезжающее меню добавления -->
+    <div class="rightside-menu rightside-menu--close">
+        <div class="input-add__content">
+            <input type="text" name="todo" id="todo" class="js-input input" placeholder="Enter the task">
+            <button class="js-btn btn"> ADD </button>
+            <button class="rightside-menu__close ">
+                <img src="close-btn.png" alt="button">
+            </button>
+        </div>
     </div>
 
     <script src="index.js"></script>
 </body>
+
 </html>

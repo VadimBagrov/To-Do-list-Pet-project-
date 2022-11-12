@@ -4,10 +4,11 @@ body {
     justify-content: center;
     align-items: center;
     background: #D0CBC8;
+    overflow-x: hidden;
 }
 
 .container {
-    /* position: relative; */
+    position: relative;
     width: 354px ;
     height: 541px ;
     background-color: #FFFFFF;
@@ -136,3 +137,67 @@ body {
     flex-direction: row-reverse;
     justify-content: flex-end;
 }
+
+.btn-add {
+    position: absolute;
+    border: none;
+    top: 466px;
+    right: 15px;
+    cursor: pointer;
+    background: #FFFFFF;
+    /* Разобраться с тенью */
+}
+
+.rightside-menu {
+    width: 354px;
+    height: 75px;
+    background-color: #FFFFFF;
+    z-index: 5;
+    position: absolute;
+    /* right: 0; */
+    top: 465px;
+    bottom: 0;
+    max-width: 354px;
+    width: 100%;
+    box-shadow: -2px -3px 17px 0px #000;
+    transition: all .5s;
+}
+
+.rightside-menu__close {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    /* margin-left: 50px;
+    margin-bottom: 60px; */
+}
+
+.rightside-menu.rightside-menu--close {
+    transform: translateX(150%);
+}
+/* .rightside-menu {
+    //Выезжающее меню
+    z-index: 5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 694px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 40px;
+    box-shadow: -2px -3px 17px 0px #000;
+    transition: all .5s;
+
+    &.rightside-menu--close {
+        transform: translateX(500%); //Убирает в сторону,а при нажатии на кнопку выведет меню сбоку
+    }
+
+    &__close {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    } */
